@@ -1,0 +1,46 @@
+
+main article {
+    margin-left: 30px;
+    margin-top: 30px;
+    width: 550;
+}
+main article figcaption {
+    font-size: 150%;
+    font-weight: bold;
+    font-style: italic;
+}
+main article table {
+    border: 1px solid rgb(32, 95, 121);
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 20px 20px 20px 20px;
+}
+th, td {
+    border: 1px solid rgb(32, 95, 121);
+    padding: 0.2em 0.7em 0.2em 0.7em;
+}
+main th:nth-child(1) {
+    background-color: rgb(95, 190, 228);
+}
+main article table tbody td:nth-child(1) {
+    text-align: center;
+}
+main td:nth-child(2), main td:nth-child(3), main td:nth-child(4), 
+main td:nth-child(5) {
+    text-align: right;
+} 
+.color {
+    background-color: rgb(95, 190, 228);
+}
+.r1c2 {
+    text-align: left;
+}
+#terran {
+    color: rgb(155, 42, 42);
+}
+#zerg {
+    color: rgb(2, 56, 2);
+}
+#protoss {
+    color: rgb(8, 8, 75);
+}

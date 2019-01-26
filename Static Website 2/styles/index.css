@@ -1,0 +1,17 @@
+main h1 {
+    padding-left: 10px;
+}
+article {
+    width: 570px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+main figure {
+    float: left;
+    padding-right: 10px;
+    padding-bottom: 20px;
+}
+main figure img {
+    width: 220px;
+    padding-top: 5px;
+}

@@ -1,0 +1,81 @@
+header img {
+    padding-right: 40px;
+}
+header h4 {
+    margin-right: 30px;
+}
+main article {
+    width: 770px;
+    margin-top: 30px;
+    margin-left: 5px;
+    margin-bottom: 30px;
+}
+#feedback_form {
+    width: 500px;
+    float: left;
+}
+#side_form {
+    width: 190px;
+    float: right;
+}
+#side_form span {
+    white-space: nowrap;
+    display: inline-block;
+}
+#side_form span input {
+    width: 1em;
+}
+
+main article form legend {
+    font-size: 120%;
+    text-align: center;
+    color: rgb(95, 190, 228);
+}
+main article form label {
+    float: left;
+    text-align: right;
+    width: 100px;
+}
+main article form input {
+    margin-left: 1em;
+    margin-bottom: 1em;
+    width: 270px;
+}
+main article form input:focus {
+    border: 2px solid rgb(33, 125, 161)
+}
+#feedback_form p {
+    padding-left: 5px;
+    margin-top: 1em;
+    margin-bottom: 5px;
+}
+.option {
+    margin-left: 5px;
+    margin-bottom: 10px;
+    width: 170px;
+}
+main textarea {
+    height: 10em;
+    width: 32em;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 5px;
+}
+#buttons {
+    margin-left: 5px;
+    clear: both;
+}
+#buttons input{
+    background-color: rgb(95, 190, 228);
+    border: 1px solid rgb(5, 16, 20);
+    margin-top: 10px;
+    padding: 5px 0;
+}
+#submit {
+    margin-left: 180px;
+}
+#reset {
+    margin-left: 280px;
+}
+#submit:hover, #reset:hover {
+    box-shadow: 2px 2px 0 rgb(5, 16, 20);
+}

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>My StarCraft-Feedback Page</title>
+        <link rel="shortcut icon" href="../images/starcraft.ico">
+        <link rel="stylesheet" href="../styles/normalize.css">
+        <link rel="stylesheet" href="../styles/main.css">
+        <link rel="stylesheet" href="../styles/feedback.css">
+    </head>
+
+    <body><header>
+        <img src="../images/feedback/feedback.jpg" title="Template Logo" alt="Template Logo">
+        <h3>StarCraft II</h3>
+        <h4>Feedback Page</h4>
+    </header>
+
+    
+        <nav id="nav_menu">
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../pages/video.html">Videos</a></li>
+                <li class="lastitem"><a href="../pages/table.html">Playable Races</a>
+                    <ul>
+                        <li><a href="../pages/table.html#terran">Terrans</a>
+                            <ul>
+                                <li><a href="../pages/table.html#terran">Terrans Background</a></li>
+                                <li><a href="../pages/table.html#terran">Terrans Units</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="../pages/table.html#protoss">Protoss</a>
+                             <ul>
+                                <li><a href="../pages/table.html#protoss">Protoss Background</a></li>
+                                <li><a href="../pages/table.html#protoss">Protoss Units</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="../pages/table.html#zerg">Zergs</a>
+                            <ul>
+                                <li><a href="../pages/table.html#zerg">Zergs Background</a></li>
+                                <li><a href="../pages/table.html#zerg">Zergs Units</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="../pages/feedback.html" class="current" id="rightborder">Your Feedback</a></li>
+            </ul>
+        </nav>
+
+        <aside id="nav_list">
+            <ul>
+                <li>
+                    <a href="../index.html">
+                        <figure>
+                            <img src="../images/thumbnails/home.jpg" title="home page" alt="home page">
+                            <figcaption>Home</figcaption>
+                        </figure>
+                    </a>
+                </li>
+                <li>
+                     <a href="../pages/video.html">
+                        <figure>
+                            <img src="../images/thumbnails/video.jpg" title="videos" alt="videos">
+                            <figcaption>Videos</figcaption>
+                        </figure>
+                    </a>
+                </li>
+                <li>
+                    <a href="../pages/table.html">                           
+                        <figure>
+                           <img src="../images/thumbnails/races.jpg" title="playable races" alt="playable races">
+                           <figcaption>Races</figcaption>
+                       </figure>
+                    </a>
+                </li>
+                <li>
+                    <a href="../pages/feedback.html">                           
+                        <figure>
+                           <img src="../images/thumbnails/feedback.jpg" title="feedback" alt="feedback">
+                           <figcaption>Feedback</figcaption>
+                       </figure>
+                    </a>
+                </li>
+            </ul>
+        </aside>
+
+        <main>
+            <article>
+                <form action="#" method="get" name="feedback_form">
+                    <fieldset  id="feedback_form">
+                        <legend>Your Feedback</legend>
+                        <label for="first_name">First Name:</label>
+                        <input type="text" name="first_name" id="first_name" required><br>
+                        <label for="last_name">Last Name:</label>
+                        <input type="text" name="last_name" id="last_name" required><br>
+                        <label for="email">E-Mail:</label>
+                        <input type="email" name="email" id="email" autofocus required><br>
+
+                        <p>Game Server Region:</p>
+                        <select class="option" name="Game Server Region">
+                            <optgroup label="North America">
+                                <option value="USA">USA</option>
+                                <option value="canada">Canada</option>
+                                <option value="mexico">Mexico</option>
+                                <option value="other">other</option>
+                            </optgroup>
+                            <optgroup label="East Asia">
+                                    <option value="China">China</option>
+                                    <option value="korea">Korea</option>
+                                    <option value="japan">Japan</option>
+                                    <option value="other">other</option>
+                            </optgroup>
+                        </select><br>
+
+                        <p>Playing Races:</p>
+                        <select class="option" name="playing races" size="3" multiple>
+                            <option value="terran">Terran</option>
+                            <option value="zerg">Zerg</option>
+                            <option value="protoss">Protoss</option>
+                            <option value="t/p">Terran/Protoss</option>
+                            <option value="t/z">Terran/Zerg</option>
+                            <option value="p/z">Protoss/Zerg</option>
+                            <option value="all three">All Three</option>
+                        </select><br>
+
+                        <p>Comments:</p>
+                        <textarea name="comments" rows="7" cols="50" 
+                        placeholder="Please suggestions about my website."></textarea>
+                    </fieldset>
+
+                    <fieldset id="side_form">
+                            <legend>Other feedback</legend>
+                                <h4>How do you feel about my site?</h4><br>
+                                <span>
+                                        <input type="checkbox" name="option1" value="content">Rich in Content<br>
+                                </span>
+                                <span>
+                                        <input type="checkbox" name="option2" value="structure">Clear Structure<br>
+                                </span>
+                                <span>
+                                        <input type="checkbox" name="option3" value="color">Proper Color<br><br>
+                                </span>
+                                <h4>Will you visit my site again?</h4><br>
+                                <span>
+                                        <input type="radio" name="choose" value="yes">Yes<br>
+                                </span>
+                                <span>
+                                        <input type="radio" name="choose" value="no">No
+                                </span>
+                        </fieldset>
+                    
+                    <fieldset id="buttons">
+                        <legend>Submit Your Feedback</legend>
+                        <label>&nbsp;</label>
+                        <input onclick="myFunction()" type="submit" id="submit" value="Submit"><br>
+                            <script>
+                                function myFunction() {
+                                    alert("Your feedback has been submitted.");
+                                }
+                            </script>
+                        <input type="reset" id="reset" value="Reset Fields"><br>
+                    </fieldset>
+                </form>
+            </article>
+        </main>
+        
+    
+    <footer>
+        <p>© 2018 Yilong Yu</p>    
+    </footer>
+
+</body></html>
