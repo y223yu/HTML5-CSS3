@@ -1,0 +1,98 @@
+* {margin: 0; padding: 0;}
+
+html { background-color: #d1e0eb; 
+	backround-repeat: repeat-y; 
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+    	font-size: 100%;
+	width: 1000px;
+	margin: 0 auto 0 auto;
+	background-color:;
+	background-image: url(../images/background-image.jpg);
+	background-attachment: fixed;
+}
+
+/* the styles for the header */
+header {
+	border: 3px solid #999999;
+	padding: 1.5em 0 2em 0;
+	border-radius: 20px;
+	box-shadow: 3px 3px 4px 4px #999999;
+}
+header img {
+	float: left;
+	padding: 0 30px 0 30px;
+}
+header h1 {
+	font-size: 170%;
+	color: #800000;
+}
+header h2 {
+	font-size:130%;
+	font-style: italic;
+}
+nav{
+	background: #9cb29a;
+	margin:auto 20px auto auto;
+	padding:2px;
+	position: relative;
+	position: right;
+	border:1px solid #9cb29a;
+	box-shadow:0 1px 1px #333333;
+	width:250px;
+}
+nav ul li{
+	display:inline;
+}
+
+/* the style for the body*/
+article{
+	border: 3px solid #999999;
+	margin:30px 0 30px 0;
+	height: 480px;
+	border-radius: 20px;
+	box-shadow: 3px 3px 4px 4px #999999;
+}
+#cities h2 {
+	border-bottom: 2px solid black;
+	height: 50px;
+	verticle-align: middle;
+	margin: 20px auto auto 20px;
+	width: 950px;
+}
+#cities-pic {
+	border: 1px solid white;
+	float: right;
+	margin: 30px 20px auto auto;
+}
+#go-up {
+	height: 35px;
+	float: right;
+	margin:auto;	
+}
+#cities p {
+	text-align: left;
+	margin: 30px 20px auto 15px;
+}
+#cities h3 {
+	margin: 50px 50px 30px 20px;
+}
+main h4 {
+	border:3px solid #999999;
+	border-radius: 10px;
+	box-shadow: 1px 1px 2px 2px #999999;
+	margin: 30px 0 30px 0;
+	padding: 10px auto 10px auto;
+}
+
+/* the style for the body*/
+footer {
+	border:3px solid #999999;
+	border-radius: 10px;
+	box-shadow: 1px 1px 2px 2px #999999;
+	margin: auto auto 20px auto;
+}
+
+
